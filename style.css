@@ -225,3 +225,156 @@ ul a {
 .copyright {
       padding-top: 5px;
 }
+/*responsive*/
+@media (max-width: 1200px) {
+  .nav-search {
+    width: 500px;
+  }
+  .shop-section {
+    flex-wrap: wrap;
+  }
+  .box {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  .nav-search {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .nav-logo, .nav-address, .nav-signin, .nav-return, .nav-cart {
+    margin-bottom: 10px;
+  }
+
+  .panel {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .panel-options {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .panel-options p {
+    margin: 5px 10px;
+  }
+
+  .panel-deals {
+    margin-top: 10px;
+  }
+
+  .shop-section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .box {
+    width: 45%;
+    margin: 10px;
+  }
+
+  .foot-panel2 {
+    flex-wrap: wrap;
+    text-align: center;
+    height: auto;
+    gap: 20px;
+    padding-bottom: 20px;
+  }
+
+  .foot-panel2 ul {
+    width: 45%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-search {
+    flex-direction: column;
+    height: auto;
+    gap: 5px;
+  }
+
+  .search-select, .search-input, .search-icon {
+    width: 100%;
+    border-radius: 4px;
+  }
+
+  .box {
+    width: 80%;
+  }
+
+  .foot-panel2 ul {
+    width: 100%;
+  }
+
+  .foot-panel3 {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .hero-msg {
+    font-size: 0.75rem;
+    width: 95%;
+    text-align: center;
+  }
+
+  .panel-options {
+    font-size: 0.75rem;
+  }
+
+  .panel-deals {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .nav-search {
+    width: 100%;
+  }
+
+  .box {
+    width: 95%;
+  }
+
+  .hero-section {
+    height: 200px;
+    background-position: center;
+  }
+
+  .foot-panel4 {
+    font-size: 0.6rem;
+  }
+
+  .foot-panel2 ul {
+    width: 100%;
+  }
+
+  .panel-options p {
+    display: block;
+    margin: 5px 0;
+  }
+
+  .panel {
+    gap: 10px;
+  }
+}
